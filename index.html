@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Interactive Page </title>
+    <nav>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </nav>
+</head>
+<body>
+    <header class="top">
+        <h1> My Interactive Page </h1>
+        <button id="theme-btn"> Dark Mode </button>
+    </header>
+    <main>
+        <section class="panel">
+            <h2>My Task </h2>
+            <p id="task-count"></p>
+            <div class="add-row">
+                <input type="text" id="task-input"
+                placeholder="Add a Task">
+                <button id="add-btn">Add</button>
+            </div>
+            <ul id="task-list"></ul>
+        </section>
+        <section class="panel">
+            <h2>Student</h2>
+            <div id="student-cards"></div>
+        </section>
+        <section class="panel">
+            <button id="toggle-btn"> Show/Hide tips </button>
+            <p id="tips">Tip: select, listen, change</p>
+        </section>
+    </main>
+
+
+</body>
+</html>
